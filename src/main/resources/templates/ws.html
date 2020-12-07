@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Spring Boot +WebSocket</title>
+</head>
+<body onload="disconnect">
+	<noscript>
+		<h2 style="color: #ff0000">藐视你的浏览器不支持websocket</h2>
+	</noscript>
+	<div>
+		<button id="connect" onclick="connect()">连接</button>
+		<button id="disconnect" disabled="disabled" onclick="disconnect();">断开</button>
+	</div>
+</body>
+</html>
